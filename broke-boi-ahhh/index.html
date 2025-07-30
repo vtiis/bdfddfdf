@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REE WOUNDED | broke boi ahhh</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/release.css">
+</head>
+<body>
+    <!-- Кинематографичный фон -->
+    <div class="cinematic-bg">
+        <div class="film-grain"></div>
+        <div class="light-leaks"></div>
+        <video autoplay muted loop class="bg-video">
+            <source src="../assets/video/ambient.mp4" type="video/mp4">
+        </video>
+        <div class="color-overlay"></div>
+    </div>
+
+    <!-- Кастомный курсор класса premium -->
+    <div class="luxury-cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <!-- Главный контент -->
+    <div class="release-container">
+        <!-- Артворк с параллакс-эффектом -->
+        <div class="artwork-parallax">
+            <div class="vinyl">
+                <img src="../assets/releases/bb.jpg" alt="broke boi ahhh" class="vinyl-cover">
+                <div class="vinyl-groove"></div>
+                <div class="vinyl-label"></div>
+            </div>
+            <div class="reflection"></div>
+        </div>
+
+        <!-- Информация о релизе -->
+        <div class="release-info">
+            <div class="title-wrapper">
+                <h1 class="release-title glitch" data-text="broke boi ahhh">broke boi ahhh</h1>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="release-meta">
+                <span class="release-date">OUT NOW</span>
+                <span class="release-catalog">WOUNDED-001</span>
+            </div>
+
+            <!-- Интерактивный плеер -->
+            <div class="player-container">
+                <div class="waveform">
+                    <div class="wave"></div>
+                    <div class="progress"></div>
+                </div>
+                <button class="play-btn">
+                    <svg class="play-icon" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    <svg class="pause-icon" viewBox="0 0 24 24">
+                        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                    </svg>
+                </button>
+                <div class="time-display">0:15 / 2:45</div>
+            </div>
+
+            <!-- Стриминги с анимацией -->
+            <div class="streaming-platforms">
+                <div class="main-platforms">
+                    <a href="#" class="platform-btn spotify" data-tooltip="Stream on Spotify">
+                        <img src="../assets/icons/brand-spotify.png" alt="Spotify">
+                    </a>
+                    <a href="#" class="platform-btn apple" data-tooltip="Apple Music">
+                        <img src="../assets/icons/apple.png" alt="Apple Music">
+                    </a>
+                    <a href="#" class="platform-btn youtube" data-tooltip="YouTube Music">
+                        <img src="../assets/icons/brand-youtube.png" alt="YouTube">
+                    </a>
+                    
+                    <div class="more-platforms">
+                        <button class="more-btn">
+                            <span>+</span>
+                        </button>
+                        <div class="dropdown-platforms">
+                            <a href="#" class="platform-btn" data-tooltip="SoundCloud">
+                                <img src="../assets/icons/brand-soundcloud.png" alt="SoundCloud">
+                            </a>
+                            <a href="#" class="platform-btn" data-tooltip="Tidal">
+                                <img src="../assets/icons/brand-tidal.png" alt="Tidal">
+                            </a>
+                            <a href="#" class="platform-btn" data-tooltip="Deezer">
+                                <img src="../assets/icons/brand-deezer.png" alt="Deezer">
+                            </a>
+                            <a href="#" class="platform-btn" data-tooltip="Yandex Music">
+                                <img src="../assets/icons/brand-yandex.png" alt="Yandex Music">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Навигация -->
+        <a href="../music.html" class="back-link">
+            <span class="arrow">←</span>
+            <span class="underline-hover">BACK TO DISCOGRAPHY</span>
+        </a>
+    </div>
+
+    <!-- Аудио элемент -->
+    <audio id="track-preview" src="../assets/audio/preview.mp3"></audio>
+
+    <!-- Скрипты -->
+    <script src="../js/release.js"></script>
+</body>
+</html>
